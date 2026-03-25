@@ -866,10 +866,10 @@ export default function Portfolio() {
               </Reveal>
               <Reveal delay={0.1}>
                 <p style={{ fontFamily:"'Barlow',sans-serif", fontSize:15, color:"#555", lineHeight:1.85, fontWeight:300, marginBottom:20 }}>
-                  I'm a full-stack web developer passionate about creating innovative web and mobile solutions that help businesses thrive in the digital age.
+                  I&apos;m a full-stack web developer passionate about creating innovative web and mobile solutions that help businesses thrive in the digital age.
                 </p>
                 <p style={{ fontFamily:"'Barlow',sans-serif", fontSize:15, color:"#555", lineHeight:1.85, fontWeight:300, marginBottom:36 }}>
-                  Currently working as a Software Developer, I've gained hands-on experience through internships and freelance projects. I love building scalable apps and writing clean, maintainable code.
+                  Currently working as a Software Developer, I&apos;ve gained hands-on experience through internships and freelance projects. I love building scalable apps and writing clean, maintainable code.
                 </p>
               </Reveal>
               <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:1, background:"#111" }}>
@@ -956,10 +956,12 @@ export default function Portfolio() {
                           <div className="sk-logos">
                             {sk.logos.map((logo) => (
                               <div key={logo.alt} className="sk-logo-chip" title={logo.alt}>
-                                <img
+                                <Image
                                   className="sk-logo"
                                   src={logo.src}
                                   alt={logo.alt}
+                                  width={28}
+                                  height={28}
                                 />
                               </div>
                             ))}
@@ -980,12 +982,12 @@ export default function Portfolio() {
             <Reveal threshold={0.1}>
               <div className="sec-label" style={{ color:"#e5002b", marginBottom:16 }}>Contact</div>
               <h2 style={{ fontFamily:"'Bebas Neue',sans-serif", fontSize:"clamp(52px,9vw,140px)", lineHeight:0.9, color:"#fff", marginBottom:40, letterSpacing:"0.01em" }}>
-                LET'S BUILD<br /><span style={{ color:"#e5002b" }}>SOMETHING</span><br />REMARKABLE.
+                LET&apos;S BUILD<br /><span style={{ color:"#e5002b" }}>SOMETHING</span><br />REMARKABLE.
               </h2>
             </Reveal>
             <Reveal delay={0.18} threshold={0.1}>
               <p style={{ fontFamily:"'Barlow',sans-serif", fontSize:15, color:"rgba(255,255,255,0.55)", lineHeight:1.85, maxWidth:500, fontWeight:300, marginBottom:44 }}>
-                Have a project in mind? Whether it's a startup idea, enterprise solution, or capstone project — my inbox is always open.
+                Have a project in mind? Whether it&apos;s a startup idea, enterprise solution, or capstone project — my inbox is always open.
               </p>
               <div style={{ display:"flex", gap:12, flexWrap:"wrap" }}>
                 <a href="mailto:francisdizonespiritu07@gmail.com" className="btn-red">Email me ↗</a>
