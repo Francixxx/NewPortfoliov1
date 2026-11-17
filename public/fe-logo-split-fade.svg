@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <g transform="translate(960 540) scale(1.40625) translate(-695.5 -377.5)" fill="#000000">
+    <g id="letter-f">
+      <path d="M565 185H748V240H632V323H740V378H632V504H565Z"/>
+      <animateTransform attributeName="transform" type="translate" dur="2.8s" fill="freeze" calcMode="spline" values="0 0;0 0;-260 0;-260 0" keyTimes="0;0.143;0.929;1" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1"/>
+      <animate attributeName="opacity" dur="2.8s" fill="freeze" calcMode="spline" values="1;1;0;0" keyTimes="0;0.143;0.929;1" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1"/>
+    </g>
+    <g id="letter-e">
+      <path d="M644 255H826V570H644V516H759V447H652V392H759V311H644Z"/>
+      <animateTransform attributeName="transform" type="translate" dur="2.8s" fill="freeze" calcMode="spline" values="0 0;0 0;260 0;260 0" keyTimes="0;0.143;0.929;1" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1"/>
+      <animate attributeName="opacity" dur="2.8s" fill="freeze" calcMode="spline" values="1;1;0;0" keyTimes="0;0.143;0.929;1" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1"/>
+    </g>
+  </g>
+</svg>
